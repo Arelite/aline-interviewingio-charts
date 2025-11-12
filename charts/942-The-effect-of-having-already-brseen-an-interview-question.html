@@ -1,0 +1,12 @@
+<html>
+    <head><meta charset="utf-8" /></head>
+    <body>
+        <div id="plotly-div"></div>
+        <script src="https://cdn.plot.ly/plotly-1.58.5.min.js"></script>
+        <script>
+            var data = [{"uid": "9abaf2", "mode": "markers", "name": "success_rate", "type": "bar", "xsrc": "aline_interviewingio:999:31d005", "x": ["False", "True"], "ysrc": "aline_interviewingio:999:005e6d", "y": ["55.89", "69.51"], "error_y": {"arraysrc": "aline_interviewingio:999:8b1b74", "array": ["2.21", "4.98"]}, "autobinx": true, "autobiny": true}];
+            var layout = {"title": "The effect of having already <br>seen an interview question", "width": 500, "xaxis": {"type": "category", "range": [-0.5, 1.5], "title": "Interviewee Has Seen Question", "autorange": true, "ticksuffix": ""}, "yaxis": {"type": "linear", "range": [0, 78.41052631578948], "title": "Success Rate", "autorange": true, "ticksuffix": "%"}, "height": 471.625, "autosize": false, "hovermode": "closest", "showlegend": false, "breakpoints": []};
+            Plotly.newPlot('plotly-div', data, layout);
+        </script>
+    </body>
+</html>
