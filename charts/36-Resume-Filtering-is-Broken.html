@@ -1,0 +1,12 @@
+<html>
+    <head><meta charset="utf-8" /></head>
+    <body>
+        <div id="plotly-div"></div>
+        <script src="https://cdn.plot.ly/plotly-1.58.5.min.js"></script>
+        <script>
+            var data = [{"uid": "c41af6", "line": {"color": "rgb(0, 67, 88)", "width": 1}, "mode": "markers", "name": "Col2", "type": "scatter", "xsrc": "AlineLerner:35:059b47", "x": ["No", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "No", "No", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "No", "Yes", "No", "Yes", "Yes", "No", "No", "No", "No", "No", "No", "Yes", "Yes", "No", "Yes", "No", "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", "Yes", "No"], "ysrc": "AlineLerner:35:cf3800", "y": ["0.69238", "0.77777", "1", "1", "0.8333333", "0.625", "0.8", "0.8571", "0.3", "0.333333", "0.272727", "0.466666", "0.5", "0.923", "0.8461", "0.75", "0.5909", "0.44444", "0.4177", "0.1333333", "0.5", "0.75", "0.9", "0.8125", "0.272727", "0.541666", "0.666666", "0.4375", "0.777777", "0.73333333", "0.928571", "0.5384", "0.8125", "0.7", "0.63179", "0.4615", "0.666666", "0.44444", "0.764706", "0.5714", "0.375", "0.4444444", "0.5294", "0.294118", "0.7272", "0.55555", "0.33333", "0.538462", "0.166666", "0.4", "1"], "marker": {"line": {"color": "rgb(0, 0, 0)", "width": 1}, "size": 16, "color": "rgb(31, 119, 180)", "symbol": "circle", "opacity": 1}, "error_x": {"copy_ystyle": true}, "error_y": {"color": "rgb(0, 67, 88)", "width": 1, "thickness": 1}}];
+            var layout = {"title": "Resume Filtering is Broken", "width": 1296, "xaxis": {"type": "category", "range": [-1, 2], "ticks": "", "title": "Candidate hirability", "domain": [], "showgrid": false, "showline": false, "zeroline": false, "autorange": false}, "yaxis": {"type": "linear", "range": [0, 1.2], "title": "Perceived candidate score", "domain": [], "zeroline": false, "autorange": false}, "height": 587, "margin": {}, "autosize": true, "showlegend": false, "annotations": [{"x": 0, "y": 1.1, "ax": 0, "text": "Not quite hirable"}, {"x": 1, "y": 1.1, "ax": 0, "text": "Hirable"}], "plot_bgcolor": "rgba(0, 0, 0, 0)", "paper_bgcolor": "rgba(0, 0, 0, 0)"};
+            Plotly.newPlot('plotly-div', data, layout);
+        </script>
+    </body>
+</html>

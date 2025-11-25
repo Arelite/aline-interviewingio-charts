@@ -1,0 +1,12 @@
+<html>
+    <head><meta charset="utf-8" /></head>
+    <body>
+        <div id="plotly-div"></div>
+        <script src="https://cdn.plot.ly/plotly-1.58.5.min.js"></script>
+        <script>
+            var data = [{"uid": "4b41a7", "name": "Col1", "type": "histogram", "xsrc": "AlineLerner:23:f404ce", "x": ["0.5", "0.333333", "0.333333", "0.666667", "0.333333", "0.4", "0.333333", "1", "1", "0.5", "0.333333", "0.5", "0.5", "0.166667", "0.2", "0.833333", "0.5", "0.5", "1", "0.57143"], "xbins": {"end": 1.05, "size": 0.1, "start": -0.05}, "marker": {"line": {"color": "rgba(214, 39, 40, 0)"}, "color": "rgb(39, 78, 19)"}, "autobinx": false}];
+            var layout = {"title": "Hiring Manager Accuracy (n=20)", "width": 1116, "xaxis": {"type": "linear", "range": [8e-15, 1.0499999999999998], "title": "Accuracy", "domain": [], "autorange": false}, "yaxis": {"type": "linear", "range": [0, 6.315789473684211], "title": "Frequency", "domain": [], "showline": true, "autorange": true}, "bargap": 0.14, "height": 587, "margin": {}, "autosize": false, "hovermode": "x", "showlegend": false, "plot_bgcolor": "rgba(214, 39, 40, 0)", "paper_bgcolor": "rgba(214, 39, 40, 0)"};
+            Plotly.newPlot('plotly-div', data, layout);
+        </script>
+    </body>
+</html>
