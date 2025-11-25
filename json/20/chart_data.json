@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "uid": "7b40ef",
+      "name": "Col1",
+      "type": "histogram",
+      "xsrc": "AlineLerner:54:588de6",
+      "x": [
+        "0",
+        "0",
+        "0.333333",
+        "0.75",
+        "0.75",
+        "0.5",
+        "0.5",
+        "0.5",
+        "1",
+        "0.333333",
+        "0.5",
+        "0.666667",
+        "0.5",
+        "0.333333",
+        "0.571429",
+        "0.5",
+        "0.166667",
+        "0.428571",
+        "1",
+        "0.857143",
+        "0.5",
+        "0.66666"
+      ],
+      "xbins": {
+        "end": 1.05,
+        "size": 0.1,
+        "start": -0.05
+      },
+      "marker": {
+        "line": {
+          "color": "rgba(214, 39, 40, 0)",
+          "width": 6
+        },
+        "color": "rgb(19, 27, 88)"
+      },
+      "autobinx": false
+    }
+  ],
+  "layout": {
+    "font": {
+      "family": "\"Droid Sans\", sans-serif"
+    },
+    "title": "In-house Recruiter Accuracy (n=22)",
+    "width": 1116,
+    "xaxis": {
+      "type": "linear",
+      "range": [
+        -0.04999999999999993,
+        1.0499999999999998
+      ],
+      "title": "Accuracy",
+      "domain": [],
+      "tickfont": {},
+      "autorange": true,
+      "titlefont": {}
+    },
+    "yaxis": {
+      "type": "linear",
+      "range": [
+        0,
+        7.368421052631579
+      ],
+      "title": "Frequency",
+      "domain": [],
+      "showline": true,
+      "tickfont": {},
+      "autorange": true,
+      "titlefont": {}
+    },
+    "bargap": 0.14,
+    "height": 587,
+    "margin": {},
+    "autosize": false,
+    "titlefont": {},
+    "showlegend": false,
+    "plot_bgcolor": "rgba(214, 39, 40, 0)",
+    "paper_bgcolor": "rgba(214, 39, 40, 0)"
+  }
+}

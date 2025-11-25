@@ -1,0 +1,202 @@
+{
+  "data": [
+    {
+      "uid": "203eee",
+      "line": {},
+      "name": "Magnitude (%)",
+      "type": "bar",
+      "xsrc": "AlineLerner:14:8721b8",
+      "x": [
+        "9.2",
+        "10.2",
+        "12.2",
+        "14.3",
+        "32.7"
+      ],
+      "ysrc": "AlineLerner:14:1ebdbb",
+      "y": [
+        "Too enterprisey",
+        "Short stints",
+        "Subjectively unimpressed",
+        "No pedigree",
+        "Lack of relevant experience"
+      ],
+      "zmax": 1,
+      "zmin": 0,
+      "xbins": {
+        "end": 40,
+        "size": 20,
+        "start": 0
+      },
+      "ybins": {
+        "end": 4.5,
+        "size": 1,
+        "start": -0.5
+      },
+      "marker": {
+        "line": {},
+        "color": "rgb(214, 39, 40)"
+      },
+      "error_x": {},
+      "error_y": {},
+      "autobinx": true,
+      "autobiny": true,
+      "colorbar": {},
+      "textfont": {},
+      "orientation": "h"
+    }
+  ],
+  "layout": {
+    "font": {
+      "size": 12,
+      "color": "#444",
+      "family": "\"Open sans\", verdana, arial, sans-serif"
+    },
+    "smith": false,
+    "title": "Recruiters' Top 5 Rejection Reasons",
+    "width": 2304,
+    "xaxis": {
+      "type": "linear",
+      "dtick": 5,
+      "range": [
+        0,
+        34.42105263157895
+      ],
+      "tick0": 0,
+      "ticks": "",
+      "title": "Magnitude (%)",
+      "anchor": "free",
+      "domain": [
+        0,
+        1
+      ],
+      "mirror": false,
+      "nticks": 0,
+      "ticklen": 5,
+      "autotick": true,
+      "position": 0,
+      "showgrid": true,
+      "showline": false,
+      "tickfont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "zeroline": true,
+      "autorange": true,
+      "gridcolor": "#eee",
+      "gridwidth": 1,
+      "linecolor": "#444",
+      "linewidth": 1,
+      "rangemode": "normal",
+      "tickangle": "auto",
+      "tickcolor": "#444",
+      "tickwidth": 1,
+      "titlefont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "overlaying": false,
+      "showexponent": "all",
+      "zerolinecolor": "#444",
+      "zerolinewidth": 1,
+      "exponentformat": "B",
+      "showticklabels": true
+    },
+    "yaxis": {
+      "side": "bottom",
+      "type": "category",
+      "dtick": 1,
+      "range": [
+        -0.5,
+        4.5
+      ],
+      "tick0": 0,
+      "ticks": "outside",
+      "title": "",
+      "anchor": "x",
+      "domain": [
+        0,
+        1
+      ],
+      "mirror": false,
+      "nticks": 0,
+      "ticklen": 5,
+      "autotick": true,
+      "position": 0,
+      "showgrid": false,
+      "showline": false,
+      "tickfont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "zeroline": false,
+      "autorange": true,
+      "gridcolor": "#eee",
+      "gridwidth": 1,
+      "linecolor": "#444",
+      "linewidth": 1,
+      "rangemode": "normal",
+      "tickangle": "auto",
+      "tickcolor": "#444",
+      "tickwidth": 1,
+      "titlefont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "overlaying": false,
+      "showexponent": "all",
+      "zerolinecolor": "#444",
+      "zerolinewidth": 1,
+      "exponentformat": "B",
+      "showticklabels": true
+    },
+    "bargap": 0.2,
+    "boxgap": 0.3,
+    "height": 1038,
+    "legend": {
+      "x": 1.02,
+      "y": 1,
+      "font": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "bgcolor": "#fff",
+      "xanchor": "left",
+      "yanchor": "top",
+      "traceorder": "normal",
+      "bordercolor": "#444",
+      "borderwidth": 0
+    },
+    "margin": {
+      "b": 80,
+      "l": 200,
+      "r": 80,
+      "t": 100,
+      "pad": 0,
+      "autoexpand": true
+    },
+    "barmode": "stack",
+    "boxmode": "overlay",
+    "autosize": true,
+    "dragmode": "zoom",
+    "hovermode": "x",
+    "titlefont": {
+      "size": 0,
+      "color": "",
+      "family": ""
+    },
+    "separators": ".,",
+    "showlegend": false,
+    "annotations": [],
+    "bargroupgap": 0,
+    "boxgroupgap": 0.3,
+    "hidesources": false,
+    "plot_bgcolor": "rgba(0, 0, 0, 0)",
+    "paper_bgcolor": "rgba(0, 0, 0, 0)"
+  }
+}

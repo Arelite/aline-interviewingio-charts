@@ -1,0 +1,245 @@
+{
+  "data": [
+    {
+      "uid": "efe0b9",
+      "line": {},
+      "name": "Magnitude (%)",
+      "type": "bar",
+      "xsrc": "AlineLerner:16:cd0731",
+      "x": [
+        "26.9",
+        "16.2",
+        "16.2",
+        "7.8",
+        "7.2"
+      ],
+      "ysrc": "AlineLerner:16:d12444",
+      "y": [
+        "Lack of relevant experience",
+        "Unclear what worked on",
+        "Poor resume formatting",
+        "Culture fit",
+        "Too enterprisey"
+      ],
+      "marker": {
+        "line": {},
+        "color": "rgb(214, 39, 40)"
+      },
+      "error_x": {},
+      "error_y": {},
+      "textfont": {},
+      "orientation": "h"
+    }
+  ],
+  "layout": {
+    "font": {
+      "size": 12,
+      "color": "#444",
+      "family": "\"Open sans\", verdana, arial, sans-serif"
+    },
+    "smith": false,
+    "title": "Engineers' Top 5 Rejection Reasons",
+    "width": 2304,
+    "xaxis": {
+      "type": "linear",
+      "dtick": 5,
+      "range": [
+        1.5641890579403679,
+        28.538994223794685
+      ],
+      "tick0": 0,
+      "ticks": "",
+      "title": "Magnitude (%)",
+      "anchor": "y",
+      "domain": [
+        0,
+        1
+      ],
+      "mirror": false,
+      "nticks": 0,
+      "ticklen": 5,
+      "autotick": true,
+      "position": 0,
+      "showgrid": true,
+      "showline": false,
+      "tickfont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "zeroline": true,
+      "autorange": false,
+      "gridcolor": "#eee",
+      "gridwidth": 1,
+      "linecolor": "#444",
+      "linewidth": 1,
+      "rangemode": "normal",
+      "tickangle": "auto",
+      "tickcolor": "#444",
+      "tickwidth": 1,
+      "titlefont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "overlaying": false,
+      "showexponent": "all",
+      "zerolinecolor": "#444",
+      "zerolinewidth": 1,
+      "exponentformat": "B",
+      "showticklabels": true
+    },
+    "yaxis": {
+      "type": "category",
+      "dtick": 1,
+      "range": [
+        4.280768582141169,
+        -0.4280540857800741
+      ],
+      "tick0": 0,
+      "ticks": "",
+      "title": "",
+      "anchor": "x",
+      "domain": [
+        0,
+        1
+      ],
+      "mirror": false,
+      "nticks": 0,
+      "ticklen": 5,
+      "autotick": true,
+      "position": 0,
+      "showgrid": false,
+      "showline": false,
+      "tickfont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "zeroline": false,
+      "autorange": false,
+      "gridcolor": "#eee",
+      "gridwidth": 1,
+      "linecolor": "#444",
+      "linewidth": 1,
+      "rangemode": "normal",
+      "tickangle": "auto",
+      "tickcolor": "#444",
+      "tickwidth": 1,
+      "titlefont": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "overlaying": false,
+      "showexponent": "all",
+      "zerolinecolor": "#444",
+      "zerolinewidth": 1,
+      "exponentformat": "B",
+      "showticklabels": true
+    },
+    "bargap": 0.2,
+    "boxgap": 0.3,
+    "height": 1038,
+    "legend": {
+      "x": 1.02,
+      "y": 1,
+      "font": {
+        "size": 0,
+        "color": "",
+        "family": ""
+      },
+      "bgcolor": "#fff",
+      "xanchor": "left",
+      "yanchor": "top",
+      "traceorder": "normal",
+      "bordercolor": "#444",
+      "borderwidth": 0
+    },
+    "margin": {
+      "b": 80,
+      "l": 200,
+      "r": 80,
+      "t": 100,
+      "pad": 0,
+      "autoexpand": true
+    },
+    "barmode": "group",
+    "boxmode": "overlay",
+    "autosize": true,
+    "dragmode": "zoom",
+    "hovermode": "x",
+    "titlefont": {
+      "size": 0,
+      "color": "",
+      "family": ""
+    },
+    "separators": ".,",
+    "showlegend": false,
+    "annotations": [
+      {
+        "x": 6.722318685902921,
+        "y": 4.037296037296037,
+        "ax": 126,
+        "ay": -1.171875,
+        "tag": "",
+        "font": {
+          "size": 0,
+          "color": "",
+          "family": ""
+        },
+        "text": "Also mattered to recruiters",
+        "xref": "x",
+        "yref": "y",
+        "align": "center",
+        "bgcolor": "rgba(0,0,0,0)",
+        "opacity": 1,
+        "xanchor": "auto",
+        "yanchor": "auto",
+        "arrowhead": 6,
+        "arrowsize": 1,
+        "borderpad": 1,
+        "showarrow": true,
+        "textangle": 0,
+        "arrowcolor": "",
+        "arrowwidth": 0,
+        "bordercolor": "",
+        "borderwidth": 1
+      },
+      {
+        "x": 25.61228117319113,
+        "y": 0.261256085654551,
+        "ax": -1,
+        "ay": 49.828125,
+        "tag": "",
+        "font": {
+          "size": 0,
+          "color": "",
+          "family": ""
+        },
+        "text": "Also mattered to recruiters",
+        "xref": "x",
+        "yref": "y",
+        "align": "center",
+        "bgcolor": "rgba(0,0,0,0)",
+        "opacity": 1,
+        "xanchor": "auto",
+        "yanchor": "auto",
+        "arrowhead": 6,
+        "arrowsize": 1,
+        "borderpad": 1,
+        "showarrow": true,
+        "textangle": 0,
+        "arrowcolor": "",
+        "arrowwidth": 0,
+        "bordercolor": "",
+        "borderwidth": 1
+      }
+    ],
+    "bargroupgap": 0,
+    "boxgroupgap": 0.3,
+    "hidesources": true,
+    "plot_bgcolor": "rgba(0, 0, 0, 0)",
+    "paper_bgcolor": "rgba(0, 0, 0, 0)"
+  }
+}
